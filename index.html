@@ -5,12 +5,102 @@
 	<title>Website Template</title>
 	<link rel="stylesheet" href="./assets/css/styles.css">
 </head>
+
 <body>
 
-	<h1>Website Template</h1>
-	<p>Fork and use this template repo (a.k.a. "boilerplate") for any web project</p>
-	<img src="assets/img/cat.jpg" alt="">
+    <div class="container-fluid">
 
-	<script src="./assets/js/main.js"></script>
+        <header class="top-bar">
+            LOST IN TRANSLITERATION |
+            DOCUMENT ID: #884-A |
+            (1440px)
+        </header>
+
+        <main class="row">
+
+            <!-- LEFT SIDE -->
+            <section class="col-lg-6 story">
+
+                <h1>THE OFFICIAL COUNTER.</h1>
+
+                <p>
+                    You type your authorized name into the system
+                    using standard English letters. The cursor blinks
+                    once, then flashes red:
+                </p>
+
+                <p class="error-text">
+                    UNSUPPORTED CHARACTER SET.
+                </p>
+
+                <p>
+                    The database rejects your true name as invalid text.
+                    To proceed, you are forced to anglicize yourself.
+                </p>
+
+            </section>
+
+
+            <!-- RIGHT SIDE -->
+            <section class="col-lg-6">
+
+                <div class="system-box">
+
+                    <div class="system-label">
+                        AUTHORIZED SIGNATURE FIELD
+                    </div>
+
+                    <div class="signature-box">
+
+                        <p>
+                            FULL LEGAL NAME:
+                            <span>"Seola"</span>
+                        </p>
+
+                        <p class="signature">
+                            Name Signature
+                        </p>
+
+                    </div>
+
+                    <div class="error-box">
+                        ✖ ERROR 402:
+                        UNSUPPORTED CHARACTER SET
+                    </div>
+
+                    <p class="system-note">
+                        Database cannot process string.
+                        Select an authorized anglicized format
+                        below to proceed:
+                    </p>
+
+
+                    <!-- CHOICE A -->
+                    <a href="mispronunciation.html"
+                       class="choice choice-primary">
+
+                        [01. Anglicize phonetically
+                        (Spell by sound) →]
+
+                    </a>
+
+
+                    <!-- CHOICE B -->
+                    <a href="kitchen.html"
+                       class="choice choice-secondary">
+
+                        [02. Anglicize by meaning
+                        (Translate concept) →]
+
+                    </a>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
 </body>
 </html>
