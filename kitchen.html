@@ -2,15 +2,110 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Website Template</title>
+	<title>Functional Blindness | Lost in Transliteration</title>
 	<link rel="stylesheet" href="./assets/css/styles.css">
 </head>
+
 <body>
+    <div class="container-fluid page-container">
 
-	<h1>Website Template</h1>
-	<p>Fork and use this template repo (a.k.a. "boilerplate") for any web project</p>
-	<img src="assets/img/cat.jpg" alt="">
+        <header class="top-bar">
+            <span>LOST IN TRANSLITERATION | DOCUMENT ID: #884-A</span>
+            <span>03 / FUNCTIONAL BLINDNESS</span>
+        </header>
 
-	<script src="./assets/js/main.js"></script>
+        <main class="row story-layout">
+
+            <!-- LEFT: NARRATION -->
+            <section class="col-lg-6 story">
+                <p class="chapter-label">ACT III / 06:45 AM</p>
+
+                <h1>FUNCTIONAL BLINDNESS.</h1>
+
+                <p>
+                    The apartment is still quiet, except for the
+                    faint humming of the refrigerator.
+                </p>
+
+                <p>
+                    You stand in front of a rice cooker, trying
+                    to prepare breakfast before leaving for the day.
+                    The buttons are covered in unfamiliar words,
+                    and a warning label sits beside the power cord.
+                </p>
+
+                <p>
+                    You recognize a few letters, but not enough
+                    to understand what they are telling you.
+                    You read the instructions again, hoping
+                    something will make sense.
+                </p>
+
+                <p>
+                    Your stomach growls. The clock keeps ticking.
+                </p>
+
+                <p class="closing-thought">
+                    Something as simple as making breakfast has
+                    become another decision you are afraid to get wrong.
+                </p>
+            </section>
+
+            <!-- RIGHT: INTERACTIVE SYSTEM -->
+            <section class="col-lg-6">
+                <div class="system-box">
+
+                    <p class="system-label">DOMESTIC APPLIANCE / USER MANUAL</p>
+
+                    <div class="document-box">
+                        <p class="document-heading">RICE COOKER / MODEL 04-B</p>
+
+                        <div class="warning-text">
+                            WARNING: CHECK VOLTAGE BEFORE USE.
+                        </div>
+
+                        <div class="appliance-display">
+                            <span>COOK</span>
+                            <span>WARM</span>
+                            <span>RESET</span>
+                        </div>
+
+                        <p class="glitched-text">
+                            CAUTION / 110V / 220V / INPUT / OUTPUT
+                        </p>
+
+                        <p class="system-small">
+                            STATUS: INSTRUCTIONS NOT UNDERSTOOD
+                        </p>
+                    </div>
+
+                    <div class="error-box">
+                        ! USER COMPREHENSION UNCONFIRMED
+                    </div>
+
+                    <p class="system-note">
+                        Breakfast preparation pending.
+                        Select an action to continue.
+                    </p>
+
+                    <p class="choice-label">AVAILABLE ACTIONS</p>
+
+                    <a href="grocery.html?kitchen=guess"
+                       class="choice choice-primary">
+                        [01. Guess the cooker setting →]
+                    </a>
+
+                    <a href="grocery.html?kitchen=cold"
+                       class="choice choice-secondary">
+                        [02. Eat cold food instead →]
+                    </a>
+
+                    <p class="system-footer">
+                        NOTE: DAILY ROUTINE CANNOT BE PAUSED.
+                    </p>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
