@@ -94,10 +94,9 @@ body {
    SIGNATURE
 ========================= */
 
-.signature-box {
+signature-box {
     background: #F5F3EF;
     border: 1px solid #9E4B31;
-
     padding: 20px;
 }
 
@@ -106,9 +105,24 @@ body {
     font-size: 14px;
 }
 
-.signature {
+input.signature {
     font-family: cursive !important;
     font-size: 28px !important;
+    color: #1D2120;
+    
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #9E4B31;
+    outline: none;
+    
+    width: 100%;
+    display: block;
+    padding: 4px 0;
+    margin-top: 10px;
+}
+
+input.signature:focus {
+    border-bottom-style: solid;
 }
 
 
